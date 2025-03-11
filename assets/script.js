@@ -1095,12 +1095,12 @@ const noveldata = {
 				"Choices":
 				{
 					"KEEP STARING": {
-						"NextPage": "Scene9",
+						"NextPage": "Page27",
 						"Score": -5
 					},
-					"DON'T LOOK AWAY": {
-						"NextPage": "Scene9",
-						"Score": -5
+					"LOOK AWAY LOOK AWAY LOOK AWAY": {
+						"NextPage": "Page23",
+						"Score": -3
 					}
 				}
 			},
@@ -1128,6 +1128,60 @@ const noveldata = {
 				"Sprite": " ",
 				"StoryText": "I'm out of here.",
 				"NextPage": "Scene9"
+			},
+
+			"Page27" : {
+				"Character": "Dr. Y/N",
+				"Sprite": " ",
+				"StoryText": "...!",
+				"NextPage": "End_4092"
+			}
+		}
+	},
+
+	"End_4092": {
+		"Background": "assets/backgrounds/interrogation_2.png",
+    	"PAGES": {
+			"Page0" : {
+				"Character": "Dr. Parker",
+				"Sprite": "Sad",
+				"StoryText": "What did you see?"
+			},
+
+			"Page1" : {
+				"Character": "Dr. Y/N",
+				"Sprite": " ",
+				"StoryText": "..."
+			},
+
+			"Page2" : {
+				"Character": "Dr. Y/N",
+				"Sprite": " ",
+				"StoryText": "I..."
+			},
+
+			"Page3" : {
+				"Character": "SCP-4092",
+				"Sprite": "Stare",
+				"StoryText": "..."
+			},
+
+			"Page4" : {
+				"Character": "Dr. Y/N",
+				"Sprite": " ",
+				"StoryText": "...!"
+			},
+
+			"Page5" : {
+				"Character": "Dr. Y/N",
+				"Sprite": "Sad",
+				"StoryText": "S-So much..."
+			},
+
+			"Page6" : {
+				"Character": " ",
+				"Sprite": " ",
+				"StoryText": "Ending 3: Insanity."
 			}
 		}
 	},
@@ -1174,7 +1228,7 @@ const noveldata = {
 			"Page5" : {
 				"Character": " ",
 				"Sprite": " ",
-				"StoryText": "Ending 3: Promotion.",
+				"StoryText": "Ending 4: Promotion.",
 				"NextPage": "Page5"
 			},
 			
@@ -1211,7 +1265,7 @@ const noveldata = {
 			"Page11" : {
 				"Character": " ",
 				"Sprite": " ",
-				"StoryText": "Ending 4: Dismissed.",
+				"StoryText": "Ending 5: Dismissed.",
 				"NextPage": "Page11"
 			}
 		}
